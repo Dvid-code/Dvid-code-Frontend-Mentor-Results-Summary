@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="your_result">
+      <h2>Your Result</h2>
+      <div class="result_circle">
+        <span class="seventy-six">76</span>
+        <span class="out_of_100">of 100</span>
+      </div>
+        <h3>Great</h3>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+    <div class="summary">
+      <h2 class="h2darker">Summary</h2>
+      <div class="reaction border_box">
+        <img src="assets/images/icon-reaction.svg" alt="" aria-hidden="true">
+        <div class="score">
+          <p class="type_id">Reaction</p>
+          <p><span class="score_range">80 <span class="hundred">/ 100</span></span></p>
+        </div>
+      </div>
+      <div class="memory border_box">
+        <img src="assets/images/icon-memory.svg" alt="" aria-hidden="true">
+        <div class="score">
+          <p class="type_id">Memory</p>
+          <p><span class="score_range">92 <span class="hundred">/ 100</span></span></p>
+        </div>
+      </div>
+      <div class="verbal border_box">
+        <img src="assets/images/icon-verbal.svg" alt="" aria-hidden="true">
+        <div class="score">
+          <p class="type_id">Verbal</p>
+          <p><span class="score_range">61 <span class="hundred">/ 100</span></span></p>    
+        </div> 
+      </div>
+      <div class="visual border_box">
+        <img src="assets/images/icon-visual.svg" alt="" aria-hidden="true">
+        <div class="score">
+          <p class="type_id">Visual</p>
+          <p><span class="score_range">72 <span class="hundred">/ 100</span></span></p>
+        </div>
+      </div>
+      <button>Continue</button>
+    </div>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">David Lam</a>.
+  </footer>
+</body>
+</html>
